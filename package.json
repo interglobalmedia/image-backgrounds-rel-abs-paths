@@ -1,0 +1,23 @@
+{
+  "name": "image-backgrounds-rel-abs-paths",
+  "version": "1.0.0",
+  "description": "How to add images, image backgrounds, and what relative and absolute paths mean in HTML5 and CSS3",
+  "main": "index.js",
+  "scripts": {
+    "slides": "npx reveal-md image-backgrounds-rel-abs-paths.md",
+    "customcss": "npx reveal-md image-backgrounds-rel-abs-paths.md -w --css custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interglobalmedia/image-backgrounds-rel-abs-paths.git"
+  },
+  "author": "Maria D. Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interglobalmedia/image-backgrounds-rel-abs-paths/issues"
+  },
+  "homepage": "https://github.com/interglobalmedia/image-backgrounds-rel-abs-paths#readme",
+  "devDependencies": {
+    "reveal-md": "^5.0.0"
+  }
+}
