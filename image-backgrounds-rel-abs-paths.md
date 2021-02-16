@@ -56,7 +56,7 @@ An `absolute path` ***points*** to the ***full*** `url` of a `file`.
 <img src="https://source.unsplash.com/user/itookthose" alt="Random daily Photo from Sid Balachandran on unsplash">
 ```
 
-***Here***, the `value` of the `src attribute` is the ***full*** `url` to a `random image` on [unsplash.com](https://source.unsplash.com/user/itookthose) of the ***unsplash user*** `itookthose` (`Sid Balachandran`). That also ***means*** that it ***represents*** the `live` (and `"permanent"`) `path` to the `file` on the `Web`, as is the ***case*** in the `random daily photo API` from the ***unsplash user*** `Sid Balachandran`.
+***Here***, the `value` of the `src attribute` is the ***full*** `url` to a `random image` on [unsplash.com](https://source.unsplash.com/user/itookthose) of the ***unsplash user*** `itookthose` (`Sid Balachandran`). That also ***means*** that it ***represents*** the `live` (and `"permanent"`) `path` to the `file` on the `Web`, as is the ***case*** in the `random daily photo API` ***from*** the ***unsplash user*** `Sid Balachandran`.
 
 </section>
 
@@ -67,7 +67,7 @@ An `absolute path` ***points*** to the ***full*** `url` of a `file`.
 
 The `relative path` in `HTML5` ***points*** to a `file` ***relative*** to the ***current*** `page` (`file`).
 
-For ***example***, in ***my*** `index.html` ***file*** which ***contains*** an `image` of a `Panda eating bamboo`, and which is ***located*** in an `images folder` in the ***same*** `root project folder`, the `img element`'s `src attribute` would ***have*** the ***following*** `value`:
+For ***example***, in ***my*** `index.html` ***file*** which ***contains*** an `image` of a `Panda eating bamboo`, and ***which*** is ***located*** in an `images folder` in the ***same*** `root project folder`, the `img element`'s `src attribute` would ***have*** the ***following*** `value`:
 
 ```html
 <img src="images/sid-balachandran-_9a-3NO5KJE-unsplash.jpg" alt="Random daily Photo from Sid Balachandran on unsplash">
@@ -103,7 +103,7 @@ After ***adding*** those `attributes`, we can ***go back*** into the `browser` a
 <section class="section">
     <h2 class="sentence">Centering the image on the HTML page</h2>
 
-I ***add*** the ***following*** to the `style element` in the `head` of the `index.html` ***file*** to basically ***center*** the `image` on the `HTML document`:
+I ***add*** the ***following*** to the `style element` in the `head` of the `index.html` ***file*** to ***basically center*** the `image` ***on*** the `HTML document`:
 
 ```html
 <style>
@@ -125,7 +125,7 @@ If I ***want*** to ***lower*** the `position` of the `image` on the ***page***, 
 </style>
 ```
 
-***Now***, when we ***go*** into the `browser`, we can `see` ***how*** this `change` ***affected*** the `vertical positioning` of the `image` on the `page`. And ***yes***, it ***has been*** a bit ***lowered***!
+***Now***, ***when*** we ***go into*** the `browser`, we `can see` ***how*** this `change` ***affected*** the `vertical positioning` of the `image` on the `page`. And ***yes***, it ***has been*** a bit ***lowered***!
 
 But the ***one thing*** to ***note*** is that ***both*** the `display declaration` ***defined*** here and the `margin declaration` ***must*** be `used` ***together*** in ***order*** for the `image` to be ***centered*** on the ***page***.
 
@@ -136,13 +136,13 @@ But the ***one thing*** to ***note*** is that ***both*** the `display declaratio
 <section class="section">
     <h2 class="sentence">So why are the display AND the margin property needed to center an image on the HTML page?</h2>
 
-`img elements` are [both inline and block elements](https://stackoverflow.com/questions/2402761/is-img-element-block-level-or-inline-level). What ***does*** that ***mean***? It ***means*** that by ***default*** they ***flow*** `inline` like `text`, but they ***also*** have a `width` and a `height` ***like*** `block elements`. ***Therefore***, the `img element` is also ***referred*** to as a `replaced element`. 
+`img elements` are [both inline and block elements](https://stackoverflow.com/questions/2402761/is-img-element-block-level-or-inline-level). What ***does*** that ***mean***? It ***means*** that by ***default*** they ***flow*** `inline` like `text`, but they ***also*** have a `width` and a `height` ***like*** `block elements`. ***Therefore***, the `img element` is ***also referred*** to ***as*** a `replaced element`. 
 
-A `replaced element` has a `display value` of `inline` by ***default***, but its ***default*** `dimensions` are ***defined*** by the ***embedded*** `image`'s ***intrinsic*** `values` (i.e., the ***original*** or ***full*** `dimensions` (`width`  and `height`)).
+A `replaced element` ***has*** a `display value` of `inline` by ***default***, but its ***default*** `dimensions` are ***defined*** by the ***embedded*** `image`'s ***intrinsic*** `values` (i.e., the ***original*** or ***full*** `dimensions` (`width`  and `height`)).
 
-To ***recap***, `img elements` are *`"block elements"`* in that they ***have*** a `width` and a `height`, ***but*** by ***default***, they are ***more like*** *`"inline-block elements"`* in ***that*** respect. But they ***behave*** like *`"inline elements"`*.
+To ***recap***, `img elements` are *`"block elements"`* in ***that*** they ***have*** a `width` and a `height`, ***but*** by ***default***, they are ***more like*** *`"inline-block elements"`* in ***that respect***. But they ***behave*** like *`"inline elements"`*.
 
-***Explicitly*** `defining` the `display: block` `property declaration` on the `img element` ***separates*** the `img element` into a `block` of its ***own***, thereby ***making*** it ***behave*** like a `block element` ***instead*** of an `inline element` (it ***no longer*** `floats` to the ***left*** of the ***page***), and then the ***shorthand*** `margin property declaration` is actually ***able*** to ***center*** the `image` on the ***page*** as a ***result***.
+***Explicitly*** `defining` the `display: block` `property declaration` on the `img element` ***separates*** the `img element` ***into*** a `block` of its ***own***, thereby ***making*** it ***behave*** like a `block element` ***instead*** of an `inline element` (it ***no longer*** `floats` to the ***left*** of the ***page***), and then the ***shorthand*** `margin property declaration` is ***actually able*** to ***center*** the `image` on the ***page*** as a ***result***.
 
 The ***longhand*** for `margin: 3rem auto 0` would be the ***following***:
 
@@ -153,7 +153,7 @@ margin-top: 3rem;
 margin-bottom: 0;
 ```
 
-So the ***longhand*** for the `img` `rule set` would ***be***:
+So the ***longhand*** for the `img` `rule set` ***would be***:
 
 ```css
 img {
@@ -176,7 +176,7 @@ img {
 
 The `img element` ***accepts*** the `background`,  `filter`,`opacity`, `background-image`, `list-style-image`, and `cursor` ***properties***.
 
-It ***accepts*** the `background-size`, `background-position`, `border-image`, `content`, `object-fit`, `image-orientation`, `image-rendering`, `float`, `transform` (***with*** `pseudo-selector:hover`), ***properties***. We'll go into the `transform property` when we ***cover*** `pseudo-selectors`.
+It ***accepts*** the `background-size`, `background-position`, `border-image`, `content`, `object-fit`, `image-orientation`, `image-rendering`, `float`, `transform` (***with*** `pseudo-selector:hover`), ***properties***. We'll ***go into*** the `transform property` ***when*** we ***cover*** `pseudo-selectors`.
 
 </section>
 
@@ -220,7 +220,7 @@ img {
 }
 ```
 
-***Here***, the `border-radius property declaration` rounds ***all*** `four corners` of the `image` by `10px`. We can ***go into*** the `browser` and `witness` its ***effect*** on the `panda image`.
+***Here***, the `border-radius property declaration` rounds ***all*** `four corners` of the `image` by `10px`. We can ***go into*** the `browser` and `witness` its ***effect*** on the `panda image`. You `can also` ***try this*** on your ***own*** `images`!
 
 ```css
 img {
@@ -302,7 +302,7 @@ body {
 <p>This is some more example text.</p>
 ```
 
-I ***added*** enough `paragraphs` so that there was `vertical overflow` and the `scroll bar` ***appeared***. When we ***scroll down*** the `viewport`, we ***see*** that the `image` **remains** *`"fixed"`* in the *`background`*, and the `text` ***scrolls up*** and ***down***. That is ***because*** of the `fixed property value` ***set*** on the `background image` of the `body` ***represented*** by the `CSS background property value` of `url(images/sid-balachandran-_9a-3NO5KJE-unsplash.jpg)`.
+I ***added enough*** `paragraphs` so that ***there was*** `vertical overflow` and the `scroll bar` ***appeared***. When we ***scroll down*** the `viewport`, we ***see*** that the `image` **remains** *`"fixed"`* in the *`background`*, and the `text` ***scrolls up*** and ***down***. That is ***because*** of the `fixed property value` ***set*** on the `background image` of the `body` ***represented*** by the `CSS background property value` of `url(images/sid-balachandran-_9a-3NO5KJE-unsplash.jpg)`.
 
 I ***also*** wanted to `center` the `h1` and `p text`, so I did the ***following*** within the `style element`:
 
@@ -312,7 +312,7 @@ h1, p {
 }
 ```
 
-I ***also*** wanted to `change` the ***default*** `text color` of `black`, so I ***added*** the ***following*** to the `style element` as ***well***:
+I ***also wanted*** to `change` the ***default*** `text color` of `black`, so I ***added*** the ***following*** to the `style element` as ***well***:
 
 ```css
 h1 {
@@ -323,7 +323,7 @@ p {
 }
 ```
 
-If I ***wanted*** to get ***fancier***, I could ***add*** a `background `to the `text` so that it `pops out` ***more*** and ***apply*** the `CSS opacity property` to ***this*** `background` as ***well***, so that it doesn't ***completely*** `cover` the `background image`. That ***means*** adding a `wrapper element` (***usually*** a `div` or some sort of `sectioning element`) to the `HTML markup` ***too***. We will ***tackle*** that `exercise` ***later***, when we ***touch*** upon `Flexbox` and `CSS Grid`.
+If I ***wanted*** to get ***fancier***, I could ***add*** a `background `to the `text` so that it `pops out` ***more*** and ***apply*** the `CSS opacity property` to ***this*** `background` as ***well***, ***so that*** it ***doesn't completely*** `cover` the `background image`. That means ***adding*** a `wrapper element` (***usually*** a `div` or ***some sort*** of `sectioning element`) to the `HTML markup` ***too***. We will ***tackle*** that `exercise` ***later***, when we ***touch*** upon `Flexbox` and `CSS Grid`.
 
 </section>
 
@@ -353,7 +353,7 @@ The ***above*** is my ***favorite*** `approach` to ***setting*** a `background i
 
 But to ***set*** the `background-image` ***alone*** is ***not*** enough. ***Just as*** when we `had` to `set` ***both*** the `display property declaration` and the `margin property declaration` ***together*** when ***centering*** an `image` on the ***page***, here we ***have*** to ***set*** at the ***very least*** the `background-size property declaration` as ***well***. ***Otherwise***, we'll ***end up*** with the ***same problem*** when we did ***not set*** an ***explicit*** `width` and `height` to the `Panda image` and ended up ***rendering*** its `original size` to the ***page*** (which is ***huge***!).
 
-***That's*** where the `background-size property declaration` ***comes*** in.
+***That's where*** the `background-size property declaration` ***comes*** in.
 
 </section>
 
@@ -429,9 +429,11 @@ Using a [background-color](https://www.w3schools.com/cssref/pr_background-color.
 <section class="section">
     <h2 class="sentence">The background-image property can target an element other than body</h2>
     
-The `background-image property` does ***not*** have to ***only*** `target` the `body element`. The `img element` can be ***embedded*** within a `div element`, for ***example***.
+The `background-image property` ***does not*** have to ***only*** `target` the `body element`. The `img element` can be ***embedded within*** a `div element`, for ***example***.
 
 `div element`: ***aka*** `content division element`, is a ***generic*** (***non-semantic***) `container` for `flow content`. It has ***no effect*** on the `content` or `layout` ***until*** it is ***styled*** in **some way** with `CSS`. This ***means*** `styling` is ***directly*** `applied` to the `div` or ***some kind*** of `layout model` like `CSS Flexbox` or `CSS Grid`.
+
+The **HTML**:
 
 ```html
 <body class="Site">
@@ -442,6 +444,8 @@ The `background-image property` does ***not*** have to ***only*** `target` the `
     </main>
 </body>
 ```
+
+The **CSS**:
 
 ```css
 body {
@@ -461,7 +465,7 @@ img {
 }
 ```
 
-***Above***, since we are ***wrapping*** the `img element` ***inside*** a `div`, we can ***either*** `set` the `display: block;` and `margin: 3rem auto 0` `property declarations` on the `div CSS element selector` or the `img CSS element selector`. These ***two*** `declarations` are what ***make*** the `image` ***responsive***, and the `width`, `max-width`, and `height property declarations` ***set*** its `size`. We will ***go over*** these ***responsive*** `img property declarations` in the ***next*** `slides`. 
+***Above***, ***since*** we are ***wrapping*** the `img element` ***inside*** a `div`, we can ***either*** `set` the `display: block;` and `margin: 3rem auto 0` `property declarations` ***on*** the `div CSS element selector` or the `img CSS element selector`. These ***two*** `declarations` are what ***make*** the `image` ***responsive***, and the `width`, `max-width`, and `height property declarations` ***set*** its `size`. We will ***go over*** these ***responsive*** `img property declarations` in the ***next*** `slides`. 
 
 ***Technically***, for the `purposes` of ***this*** `exercise`, we do ***not need*** to ***have*** a `main element` ***wrapping*** the `img div`, and we ***don't need*** a `.Site class` ***targeting*** the `body element`. It is ***just*** there ***because*** I was ***using*** it for ***another*** `image-related` ***exercise*** which we will cover ***later*** in the course when we ***get into*** `CSS Flexbox` and `CSS Grid`.
 
@@ -483,13 +487,13 @@ img {
 }
 ```
 
-***Here***, we ***set*** a `width` of `90%` to the `image` ***instead*** of `100%`. ***Why***? Because we ***need*** a ***bit*** of `margin `to the `left` and `right`  as the `width `of `viewport` ***diminishes***. We ***don't want*** the `sides` to be ***flush against*** the `edge` of the `viewport` or possibly even ***beyond*** it!
+***Here***, we ***set*** a `width` of `90%` to the `image` ***instead*** of `100%`. ***Why***? Because we ***need*** a ***bit*** of `margin `to the `left` and `right`  as the `width `of the `viewport` ***diminishes***. We ***don't want*** the `sides` to be ***flush against*** the `edge` of the `viewport` or ***possibly*** even ***beyond*** it!
 
 We ***set*** the `height` to `auto` so that we ***not only*** have `responsiveness` ***width-wise***, but we ***also*** have it ***height-wise***. As the `viewport height` ***changes***, the `height` of the `image` ***automatically*** `adapts` to it.
 
 There is a ***drawback*** to ***setting*** the `height` of an `image` to `height: auto`. The `height` becomes ***very small*** when the `width` of the `viewport` is `small`, and there ***ends up*** being ***a lot*** of `whitespace` ***underneath*** the `image`.
 
-The ***other issue*** is that the `height` of the `image` ***not only*** keeps on ***indefinite*** `increase` in `width` as the `viewport` ***increases*** in `width`, but the `height` ***continues*** to ***increase*** at the ***same*** `time`.
+The ***other issue*** is that the `height` of the `image` ***not only*** keeps on ***indefinitely*** `increasing` in `width` as the `viewport` ***increases*** in `width`, but the `height` ***continues*** to ***increase*** at the ***same*** `time`.
 
 </section>
 
@@ -533,7 +537,7 @@ Of ***all*** the `width` and `height property declaration` ***variations***, I f
 <section class="section">
     <h2 class="sentence">Responsive design using background-related properties</h2>
     
-Example `HTML markup`:
+***Example*** `HTML markup`:
 
 ```html
 <body class="Site">
@@ -545,7 +549,7 @@ Example `HTML markup`:
 </body>  
 ```
 
-Example `CSS`:
+***Example*** `CSS`:
 
 ```css
 body {
@@ -566,7 +570,7 @@ img {
 }
 ```
 
-The ***key*** `property declaration` above, which `makes` ***all*** the ***difference*** in ***how*** the `image` ***responds*** to a `change` in `size` of the `viewport` is the `height declaration property`.
+The ***key*** `property declaration` ***above***, which `makes` ***all*** the ***difference*** in ***how*** the `image` ***responds*** to a `change` in `size` of the `viewport` is the `height declaration property`.
 
 For ***example***, if you ***don't*** want to ***show*** anything ***other than*** the `image` on the ***page*** (***no*** `citations`, ***no*** `attributions`, ***no*** `titles`, `descriptions`, etc.), you ***might*** want the `image` to ***cover*** as ***much*** of the `viewport` as ***possible*** and have it be `responsive` at the ***same time***. 
 
@@ -581,7 +585,7 @@ For ***example***, if you ***don't*** want to ***show*** anything ***other than*
     
 `CSS` has ***several*** [different units](https://www.w3schools.com/cssref/css_units.asp) for ***expressing*** `length`.
 
-***Many*** `CSS properties` ***take*** *`"length"`* `values`, such as `width`, `height`, `margin`, `padding`, `font-size`, etc.
+***Many*** `CSS properties` ***take*** *`"length"`* `values`, ***such as*** `width`, `height`, `margin`, `padding`, `font-size`, etc.
 
 `Length` in `CSS `is a `number` ***followed*** by a `length unit` such as `px`, `em`, `rem`, `%`, ***etc***. Examples ***are***:
 
@@ -611,7 +615,7 @@ The `CSS vh length unit` is a ***relative*** `length unit`. It is ***relative***
 
 But as with ***everything else***, if we ***add*** `padding` and/or `margins` to the `element`, `overflow` on the `y axis` ***represented*** by the `overflow-y property declaration` would ***appear***. This would be ***indicated*** by the `appearance` of the `vertical scrollbar` in the `browser window`.
 
-***Relative*** `length units` are ***great*** for `responsive design`. ***Absolute*** `length units` are ***not***. That is because ***absolute*** `length units` are `fixed` (the ***don't*** `adapt` to the ***change*** in the `viewport size`), and will `appear` ***exactly*** as the ***expressed*** `dimension` (i.e., `50px`).
+***Relative*** `length units` are ***great*** for `responsive design`. ***Absolute*** `length units` are ***not***. That is because ***absolute*** `length units` are `fixed` (they ***don't*** `adapt` to the ***change*** in the `viewport size`), and will `appear` ***exactly*** as the ***expressed*** `dimension` (i.e., `50px`).
 
 </section>
 
