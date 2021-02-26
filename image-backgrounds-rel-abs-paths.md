@@ -136,7 +136,7 @@ But the ***one thing*** to ***note*** is that ***both*** the `display declaratio
 <section class="section">
     <h2 class="sentence">So why are the display AND the margin property needed to center an image on the HTML page?</h2>
 
-`img elements` are [both inline and block elements](https://stackoverflow.com/questions/2402761/is-img-element-block-level-or-inline-level). What ***does*** that ***mean***? It ***means*** that by ***default*** they ***flow*** `inline` like `text`, but they ***also*** have a `width` and a `height` ***like*** `block elements`. ***Therefore***, the `img element` is ***also referred*** to ***as*** a `replaced element`. 
+`img elements` are [both inline and block elements](https://stackoverflow.com/questions/2402761/is-img-element-block-level-or-inline-level). What ***does*** that ***mean***? It ***means*** that by ***default*** they ***flow*** `inline` like `text`, but they ***also*** have a `width` and a `height` ***like*** `block elements`. ***Therefore***, the `img element` is ***also referred*** to ***as*** a `replaced element`.
 
 A `replaced element` ***has*** a `display value` of `inline` by ***default***, but its ***default*** `dimensions` are ***defined*** by the ***embedded*** `image`'s ***intrinsic*** `values` (i.e., the ***original*** or ***full*** `dimensions` (`width`  and `height`)).
 
@@ -269,7 +269,7 @@ To view ***other*** `renditions` of the `border-radius property`, please ***visi
 ```css
 body {
     background: #d4c259	url(images/sid-balachandran-_9a-3NO5KJE-unsplash.jpg) no-repeat fixed center;
-} 
+}
 ```
 
 ***Here***, the `image` is ***being*** `used` as the `background` for the ***entire*** `body element`, ***covering*** the ***whole*** `viewport`. ***Because*** this `image` is ***so big***, and we have ***nothing*** such as `text` ***on top of*** the `image`, we ***can't*** actually ***take advantage*** of the `fixed property value` we `use`. We can ***go into*** [w3schools](https://www.w3schools.com/cssref/css3_pr_background.asp), for ***example***, to ***see*** what this `code` is ***really doing***.
@@ -331,7 +331,7 @@ If I ***wanted*** to get ***fancier***, I could ***add*** a `background `to the 
 
 <section class="section">
     <h2 class="sentence">The background-image property and the img element</h2>
-    
+
 ```css
 body {
     background-image: url(images/sid-balachandran-_9a-3NO5KJE-unsplash.jpg);
@@ -380,7 +380,7 @@ To ***view*** `examples` and `descriptions` of ***these*** `background-size prop
 
 <section class="section">
     <h2 class="sentence">The background-position property and the img element</h2>
-    
+
 `background-position`: ***sets*** the `starting position` of a `background-image`. By ***default***, the `background-image` is ***placed*** at the `top-left-corner` of the `element`, and ***repeated*** both `vertically` and `horizontally`.
 
 The `background-position property` can ***contain*** the ***following*** `property values`:
@@ -413,10 +413,10 @@ To ***view*** what these `property values` ***mean*** and ***do***, please ***vi
 
 <section class="section">
     <h2 class="sentence">The background-color property and the img element</h2>
-    
+
 `background-color`: the `background-color property` ***sets*** the `background color` of an `element`.
 
-The `background` of an `element` is the `total size` of the `element`, ***including*** `padding` and `border `(but ***not*** `margin`). 
+The `background` of an `element` is the `total size` of the `element`, ***including*** `padding` and `border `(but ***not*** `margin`).
 
 Using a [background-color](https://www.w3schools.com/cssref/pr_background-color.asp) ***behind*** a `text color` can ***make*** the `text` ***easy*** to ***read*** (***depending*** on the `color combination` you ***choose***!). The `background-color property` is ***also*** `used` as a `fallback` for a `background-image property declaration` in ***case*** if an `image` is ***not*** available (***doesn't render*** to the ***page***).
 
@@ -428,7 +428,7 @@ Using a [background-color](https://www.w3schools.com/cssref/pr_background-color.
 
 <section class="section">
     <h2 class="sentence">The background-image property can target an element other than body</h2>
-    
+
 The `background-image property` ***does not*** have to ***only*** `target` the `body element`. The `img element` can be ***embedded within*** a `div element`, for ***example***.
 
 `div element`: ***aka*** `content division element`, is a ***generic*** (***non-semantic***) `container` for `flow content`. It has ***no effect*** on the `content` or `layout` ***until*** it is ***styled*** in **some way** with `CSS`. This ***means*** `styling` is ***directly*** `applied` to the `div` or ***some kind*** of `layout model` like `CSS Flexbox` or `CSS Grid`.
@@ -465,7 +465,7 @@ img {
 }
 ```
 
-***Above***, ***since*** we are ***wrapping*** the `img element` ***inside*** a `div`, we can ***either*** `set` the `display: block;` and `margin: 3rem auto 0` `property declarations` ***on*** the `div CSS element selector` or the `img CSS element selector`. These ***two*** `declarations` are what ***make*** the `image` ***responsive***, and the `width`, `max-width`, and `height property declarations` ***set*** its `size`. We will ***go over*** these ***responsive*** `img property declarations` in the ***next*** `slides`. 
+***Above***, ***since*** we are ***wrapping*** the `img element` ***inside*** a `div`, we can ***either*** `set` the `display: block;` and `margin: 3rem auto 0` `property declarations` ***on*** the `div CSS element selector` or the `img CSS element selector`. These ***two*** `declarations` are what ***make*** the `image` ***responsive***, and the `width`, `max-width`, and `height property declarations` ***set*** its `size`. We will ***go over*** these ***responsive*** `img property declarations` in the ***next*** `slides`.
 
 ***Technically***, for the `purposes` of ***this*** `exercise`, we do ***not need*** to ***have*** a `main element` ***wrapping*** the `img div`, and we ***don't need*** a `.Site class` ***targeting*** the `body element`. It is ***just*** there ***because*** I was ***using*** it for ***another*** `image-related` ***exercise*** which we will cover ***later*** in the course when we ***get into*** `CSS Flexbox` and `CSS Grid`.
 
@@ -536,7 +536,7 @@ Of ***all*** the `width` and `height property declaration` ***variations***, I f
 
 <section class="section">
     <h2 class="sentence">Responsive design using background-related properties</h2>
-    
+
 ***Example*** `HTML markup`:
 
 ```html
@@ -572,7 +572,7 @@ img {
 
 The ***key*** `property declaration` ***above***, which `makes` ***all*** the ***difference*** in ***how*** the `image` ***responds*** to a `change` in `size` of the `viewport` is the `height declaration property`.
 
-For ***example***, if you ***don't*** want to ***show*** anything ***other than*** the `image` on the ***page*** (***no*** `citations`, ***no*** `attributions`, ***no*** `titles`, `descriptions`, etc.), you ***might*** want the `image` to ***cover*** as ***much*** of the `viewport` as ***possible*** and have it be `responsive` at the ***same time***. 
+For ***example***, if you ***don't*** want to ***show*** anything ***other than*** the `image` on the ***page*** (***no*** `citations`, ***no*** `attributions`, ***no*** `titles`, `descriptions`, etc.), you ***might*** want the `image` to ***cover*** as ***much*** of the `viewport` as ***possible*** and have it be `responsive` at the ***same time***.
 
 `height: 100vh` ***means*** that the `height` of the `image` should ***cover*** `100%` of the `viewport height` (`vh`). Chances ***are*** that you ***DO*** want to ***add*** some sort of `image attribution` (i.e., the `photographer`) and ***perhaps*** even ***add*** a `title` (`heading`) and `description` of what is ***going on*** in the `image`. ***Then*** you would ***probably*** want to ***adjust*** the `vh height` of the `image` to ***accommodate*** that ***additional*** `content`.
 
@@ -582,7 +582,7 @@ For ***example***, if you ***don't*** want to ***show*** anything ***other than*
 
 <section class="section">
     <h2 class="sentence">CSS Units</h2>
-    
+
 `CSS` has ***several*** [different units](https://www.w3schools.com/cssref/css_units.asp) for ***expressing*** `length`.
 
 ***Many*** `CSS properties` ***take*** *`"length"`* `values`, ***such as*** `width`, `height`, `margin`, `padding`, `font-size`, etc.
@@ -610,7 +610,7 @@ To learn ***more*** about `absolute` vs `relative length units`, please ***visit
 
 <section class="section">
     <h2 class="sentence">The vh length unit and the img element height property</h2>
-    
+
 The `CSS vh length unit` is a ***relative*** `length unit`. It is ***relative*** to `1% `of the `viewport height`. This ***means*** that `1vh` is ***equivalent*** to `1%` of the `viewport height`. So `100vh` would ***mean*** `100%` of the `viewport height`, etc.
 
 But as with ***everything else***, if we ***add*** `padding` and/or `margins` to the `element`, `overflow` on the `y axis` ***represented*** by the `overflow-y property declaration` would ***appear***. This would be ***indicated*** by the `appearance` of the `vertical scrollbar` in the `browser window`.
@@ -647,4 +647,3 @@ But as with ***everything else***, if we ***add*** `padding` and/or `margins` to
 + [CSS Units: w3schools](https://www.w3schools.com/cssref/css_units.asp)
 
 </section>
-
